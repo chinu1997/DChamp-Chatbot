@@ -1,0 +1,9 @@
+{
+  "local": {
+    "duckduckgo": {},
+    "img_gen": {}
+  },
+  "llamahub": {
+    "wikipedia.WikipediaToolSpec": {}
+  }
+}
