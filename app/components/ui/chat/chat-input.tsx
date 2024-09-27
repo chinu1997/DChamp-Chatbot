@@ -116,8 +116,8 @@ export default function ChatInput(
           props.setRequestData && (
             <LlamaCloudSelector setRequestData={props.setRequestData} />
           )}
-        <Button type="submit" disabled={props.isLoading || !props.input.trim()}>
-          Send message
+        <Button type="submit" variant="green" disabled={props.isLoading || !props.input.trim()}>
+          Submit
         </Button>
       </div>
     </form>

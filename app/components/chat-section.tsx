@@ -115,6 +115,7 @@ export default function ChatSection() {
         reload={reload}
         stop={stop}
         append={append}
+        
       />
       <ChatInput
         input={input}
@@ -126,15 +127,12 @@ export default function ChatSection() {
         setInput={setInput}
         requestParams={{ params: requestData }}
         setRequestData={setRequestData}
+
+        
       />
       
       {/* Button to trigger PPT generation */}
-      <button
-        onClick={generatePpt}
-        className="mt-4 px-4 py-2 bg-blue-600 text-white rounded-lg"
-      >
-        Generate PPT
-      </button>
+      
     </div>
   );
 }
